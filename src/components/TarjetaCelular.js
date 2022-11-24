@@ -10,8 +10,10 @@ const TarjetaCelular = (props) => {
         direction="row"
         align="center"
         h="224px"
+        w="100%"
         gap="1"
         bg="white"
+        borderRadius="3px"
         display={mayora500 ? "flex" : "none"}>
 
             <Image 
@@ -59,14 +61,8 @@ const TarjetaCelular = (props) => {
                         color="#00a650"
                         fontWeight="semibold">
                             {props.objeto.envio} <Text as="span" fontWeight="bold" fontSize="8px" textTransform="uppercase" fontStyle="italic" color="#00a650">{props.objeto.full}</Text></Text>
-            
-            
-            
-            
+
             </Flex>
-
-
-
 
         </Flex>
     )

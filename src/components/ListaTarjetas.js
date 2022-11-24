@@ -13,7 +13,7 @@ const ListaTarjetas = (props) =>{
         wrap="wrap"
         rowGap={mayora550 ? "2px" : "20px"}
         columnGap="15px"
-        m="30px 30px 0 30px">
+        m={mayora550 ? "2px 10px 2px 10px" : "30px 30px 0 30px"}>
             {
                 props.lista.map(objeto => <Tarjeta key={objeto.id} objeto={objeto}/>)
             }
