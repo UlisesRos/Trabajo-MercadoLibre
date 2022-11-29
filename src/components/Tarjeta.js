@@ -35,6 +35,7 @@ const Tarjeta = (props) => {
                     h: "390px",
                     boxShadow: "dark-lg",
                 }}
+                transition="0.2s"
                 onMouseOver={over}
                 onMouseOut={out}
                 cursor="pointer"
@@ -108,6 +109,7 @@ const Tarjeta = (props) => {
                             fontSize="xs"
                             color="#718096"
                             textOverflow="ellipsis"
+                            transition="0.2s"
                             >
                                 {props.objeto.descripcion}</Text>
 
