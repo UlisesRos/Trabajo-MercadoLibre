@@ -41,8 +41,6 @@ const Seccion = (props) => {
                     <Box
                         as="a"
                         href="#"
-
-                        textDecorationStyle="none"
                         color="#3483fa"
                         paddingTop="9px"
                         fontSize="16px"

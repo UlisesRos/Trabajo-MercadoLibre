@@ -35,7 +35,7 @@ const Tarjeta = (props) => {
                     h: "390px",
                     boxShadow: "dark-lg",
                 }}
-                transition="0.2s"
+                transition="0.1s"
                 onMouseOver={over}
                 onMouseOut={out}
                 cursor="pointer"
